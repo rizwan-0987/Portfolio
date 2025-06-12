@@ -6,7 +6,7 @@ const plugins = {
     json: require("json-minimizer-webpack-plugin")
 }
 
-module.exports = {
+module.exports = (env, argv) => ({
     entry: {
         index: "./src/app/index.js",
         spaHandler: "./src/app/spaHandler.js",
@@ -16,7 +16,7 @@ module.exports = {
         filename: "js/[name].js",
         chunkFilename: "js/[chunkhash].js"
     },
-    mode: "development",
+    mode: argv.mode === 'production' ? 'production' : 'development',
     plugins: [
         new plugins.html({
             template: "src/templates/index.ejs",
@@ -114,4 +114,4 @@ module.exports = {
         ],
     },
 
-};
+});
