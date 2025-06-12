@@ -14,7 +14,8 @@ module.exports = (env, argv) => ({
     output: {
         path: resolve(__dirname, "dist"),
         filename: "js/[name].js",
-        chunkFilename: "js/[chunkhash].js"
+        chunkFilename: "js/[chunkhash].js",
+        publicPath: './'
     },
     mode: argv.mode === 'production' ? 'production' : 'development',
     plugins: [
