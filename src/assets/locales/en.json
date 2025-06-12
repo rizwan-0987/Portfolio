@@ -1,0 +1,140 @@
+{
+    "header": {
+        "home": "home",
+        "projects": "projects",
+        "about": "about-me",
+        "contacts": "contacts"
+    },
+    "footer": {
+        "description": "Front-end developer based in Pakistan",
+        "copyright": "Copyright 2025. Made by Rizwan",
+        "media": "Media"
+    },
+    "skills": {
+        "language": "Languages",
+        "database": "Databases",
+        "other": "Other",
+        "tool": "Tools",
+        "framework": "Frameworks"
+    },
+    "projects": {
+        "positivus": {
+            "name": "Positivus",
+            "description": "Digital Marketing Agency"
+        },
+        "calculator": {
+            "name": "Calculator.io",
+            "description": "Calculator website"
+        },
+        "tictactoe": {
+            "name": "Tic Tac Toe",
+            "description": "Tic Tac Toe game"
+        },
+        "pomodoro": {
+            "name": "Pomodoro Timer",
+            "description": "Pomodoro Timer website"
+        },
+        "portfolio": {
+            "name": "This Portfolio",
+            "description": "My personal portfolio"
+        },
+        "blog": {
+            "name": "My blog",
+            "description": "Front-end of my future blog website"
+        },
+        "clock": {
+            "name": "Analog & Digital Clock",
+            "description": "Analog & Digital Clock website"
+        },
+        "login": {
+            "name": "Login & Signup Page",
+            "description": "Login & Signup page responsive"
+        },
+        "ooku": {
+            "name": "Ooku",
+            "description": "Link shortener with discord auth"
+        },
+        "restaurant": {
+            "name": "Restaurant Website",
+            "description": "Restaurant website with responsive design"
+        },
+        "weatherapp": {
+            "name": "Realtime Weather App",
+            "description": "Realtime weather app using OpenWeatherMap API"
+        },
+        "wscube": {
+            "name": "WS Cube",
+            "description": "Digital Marketing Course"
+        },
+        "chowdeck": {
+            "name": "Chowdeck",
+            "description": "Online food delivery website"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Rizwan is a <span>front-end</span> developer",
+                "description": "He crafts responsive websites where technologies meet creativity",
+                "button": "Contact ME",
+                "status": "Open for new opportunities"
+            },
+            "quote": {
+                "text": "With great power comes great electricity bill",
+                "author": "Dr. Who"
+            },
+            "projects": {
+                "title": "projects",
+                "button": "View all"
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "about": {
+                "title": "about",
+                "description": [
+                    "I'm a front-end developer based in Rahim Yar Khan, Pakistan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
+                    "Transforming my creativity and knowledge into a websites has been my passion for over 6 months. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks."
+                ],
+                "button": "View all"
+            },
+            "contacts": {
+                "title": "contacts",
+                "text": "I'm interested in freelance opportunities. However, if you have other request or question, don't hesitate to contact me",
+                "media": "Message me here",
+                "donate": "Donate me here"
+            }
+        },
+        "projects": {
+            "description": "All of my projects",
+            "decent": "decent",
+            "small": "small",
+            "inProgress": "unfinished"
+        },
+        "about": {
+            "description": "Who am i",
+            "about": {
+                "description": [
+                    "I'm a front-end developer based in Rahim Yar Khan, Pakistan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
+                    "Transforming my creativity and knowledge into a websites has been my passion for over 6 months. I have been helping various clients to establish their presence online. ",
+                    "I always strive to learn about the newest technologies and frameworks. "
+                ]
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "facts": {
+                "title": "fun-facts",
+                "list": [
+                    "I like winter more than summer", 
+                    "Me time recharge my battery",
+                    "I like sandwitch and pizza", 
+                    "My favorite anime is Attack on Titan"
+                ]
+            }
+        },
+        "contacts": {
+            "description": "How to contact me"
+        }
+    }
+}
