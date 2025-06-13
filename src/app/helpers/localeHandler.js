@@ -20,7 +20,10 @@ function setLocaleHander() {
 async function getLocale() {
     const locale = localStorage.locale ?? defaultLocale
 
-    return fetch(`/locales/${locale}.json`).then(res => res.json())
+    const baseUrl = (window.location.hostname === "rizwan-0987.github.io") ? "/Portfolio" : "";
+    const res = await fetch(baseUrl + "/locales/" + locale + ".json");
+    const data = await res.json();
+    return data;
 }
 
 export default setLocaleHander;
