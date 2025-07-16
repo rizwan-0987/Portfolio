@@ -20,7 +20,7 @@ module.exports = (env, argv) => ({
     mode: argv.mode === 'production' ? 'production' : 'development',
     plugins: [
         new plugins.html({
-            template: "src/templates/index.ejs",
+            template: "src/templates/index.html",
             filename: "index.html",
             excludeChunks: ["spaHandler"],
             title: "Rizwan Portfolio",

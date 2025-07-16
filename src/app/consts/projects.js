@@ -78,8 +78,8 @@ const projects = [
         id: "portfolio",
         techs: ["html", "css", "js", "react"],
         links: {
-            github: "/EliasDevis.github.io",
-            live: "eliasdevis.github.io"
+            github: "/rizwan.github.io",
+            live: "rizwan.github.io"
         },
         hasImage: true,
     },
